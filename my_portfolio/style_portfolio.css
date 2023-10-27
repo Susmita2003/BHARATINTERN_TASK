@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background: url(portfolio_background.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display:cover; 
+}
+.logo{
+    width:380px;
+    height:300px;
+    margin-left:-25px;
+    margin-top:-75px;
+    cursor: pointer;
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    margin:15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 48px;
+}
+ul li a{
+    font-size: 31px;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(8, 4, 247);
+}
+ul li a:hover{
+    color:rgb(248, 242, 242);
+}
+.btn{
+    color:black;
+    background-color: pink;
+    margin: 35px;
+    padding: 11px;
+    border-radius: 10px;
+    font-size: 23px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai';
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(146, 142, 142);
+}
+.info{
+    margin: 137px 385px;
+    padding: 22px 121px;
+    font-size: 35px;
+    font-weight: bold;
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.info h1{
+    color:yellow;
+    
+}
+.info h1:hover{
+   color:black;
+}
+.info h2{
+    color:rgb(244, 163, 14);
+}
+.info h3{
+    letter-spacing: 3px;
+}
+.info span
+{
+    color:rgb(199, 186, 186);
+}
+.image{
+    width:30%;
+    height:64%;
+    position:absolute;
+    right:0%;
+    bottom:55;
+}
+ .image img{
+    position:absolute;
+    height:222%;
+    width:170%;
+    left:-55%;
+    bottom: 0%;
+}
+.icons a{
+    text-decoration: none;
+    color:white;
+}
+.icons ion-icon{
+    margin-left:7%;
+    color:black;
+    margin-right: -60px;
+}
+
+ 
